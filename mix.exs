@@ -21,7 +21,7 @@ defmodule JediAlice.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:alice, "~> 0.4.2", github: "alice-bot/alice"}
+      {:alice, "~> 0.4.3"}
     ]
   end
 end
