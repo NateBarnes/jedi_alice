@@ -4,7 +4,7 @@ defmodule Alice.Handlers.JediTest do
   test "it responds to 'This is the way'" do
     send_message("This is the way")
 
-    assert first_reply() == "This is the way"
+    assert first_reply() == "This is the Way"
   end
 
   test "it doesn't respond if it's used in a sentance" do

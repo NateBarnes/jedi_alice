@@ -4,6 +4,6 @@ defmodule Alice.Handlers.Jedi do
   route ~r/^this is the way/i, :the_way_response
 
   def the_way_response(conn) do
-    reply("This is the way", conn)
+    reply("This is the Way", conn)
   end
 end
