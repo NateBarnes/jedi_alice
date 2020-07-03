@@ -1,21 +1,18 @@
 # JediAlice
 
-**TODO: Add description**
+A collection of Star Wars related responses for
+[Alice](https://github.com/alice-bot/alice)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `jedi_alice` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `jedi_alice` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:jedi_alice, "~> 0.1.0"}
+    {:jedi_alice, "~> 0.1.1"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/jedi_alice](https://hexdocs.pm/jedi_alice).
-
+Documentation can be found at [https://hexdocs.pm/jedi_alice](https://hexdocs.pm/jedi_alice).
