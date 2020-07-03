@@ -1,4 +1,4 @@
-# JediAlice
+# Jedi Alice
 
 A collection of Star Wars related responses for
 [Alice](https://github.com/alice-bot/alice)
