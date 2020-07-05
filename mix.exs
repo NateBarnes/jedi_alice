@@ -5,10 +5,12 @@ defmodule JediAlice.MixProject do
     [
       app: :jedi_alice,
       version: "0.1.1",
-      elixir: "~> 1.9",
+      elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
+      test_coverage: [tool: ExCoveralls],
+      preferred_cli_env: [coveralls: :test],
       description: "An addon for Alice to display Star Wars themed responses"
     ]
   end
@@ -24,7 +26,8 @@ defmodule JediAlice.MixProject do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:alice, "~> 0.4.3"}
+      {:alice, "~> 0.4.3"},
+      {:excoveralls, "~> 0.12.3", only: :test}
     ]
   end
 
